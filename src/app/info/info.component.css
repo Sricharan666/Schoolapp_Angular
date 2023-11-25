@@ -1,0 +1,107 @@
+.bgnav{
+    background-color: rgb(155, 221, 250);
+}
+.imgs{
+   width: 100%;
+    height: 530px;
+}
+.address{
+    text-align: center;
+    margin-top: 40px;
+}
+.address h2{
+ color: rgb(41, 40, 40);
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 55px;
+}
+.content{
+    padding: 20px 50px 0px  50px;
+    background-color: rgb(242, 243, 243);
+}
+.custom-tab {
+    background-color: cadetblue;
+    color: rebeccapurple;
+}
+.carousel-indicators li {
+    list-style: none; /* Remove list-style (numbers) */
+}
+
+
+
+/*faculty css*/
+.faculty{
+    /* display: flex; */
+    justify-content: space-between;
+   }
+   .faculty-box img{
+       height: 350px;
+   } 
+
+
+
+   /* fee structure css*/
+   .fee-structure-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .fee-structure-table th, .fee-structure-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .fee-structure-table th {
+    background-color: #f2f2f2;
+  }
+
+
+
+/*review css*/
+/* Alternative style for the review box */
+.review-box {
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .reviewer-name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .review-date {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .review-rating {
+    color: #f39c12;
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    font-size: 20px;
+    color: #f39c12;
+  }
+  
+  .review-content {
+    font-size: 16px;
+    line-height: 1.4;
+  }

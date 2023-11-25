@@ -1,0 +1,126 @@
+
+<div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img [src]="item.imageurls.imageurl1" class="d-block w-100 imgs" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img [src]="item.imageurls.imageurl2" class="d-block w-100 imgs" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img [src]="item.imageurls.imageurl3" class="d-block w-100 imgs" alt="...">
+        </div>
+      </div>
+  
+      <!-- Next Slide Arrows -->
+      <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+  
+      <!-- Dashes for Slide Navigation (without numbers) -->
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2"></li>
+      </ol>
+    </div>
+  
+  
+    <div class="address">
+      <h2>{{item.schoolname}}</h2>
+      <address>{{item.address}}</address>
+    </div>
+  
+  
+  
+    <div class="tabs">
+      <mat-tab-group>
+        <mat-tab label="About Us">
+          <div class="content">
+                <p>{{item.schoolInfo.info1}}</p>
+                <p>{{item.schoolInfo.info2}}</p>
+                <p>{{item.schoolInfo.info3}}</p>
+          </div>
+        </mat-tab>
+  
+        <mat-tab label="Faculty">
+          <div class="content">
+            <div class="faculty">
+              <div class="row">
+                <div class="col-md-3" *ngFor="let facultyMember of item.facultyMembers; let i = index">
+                  <div class="card faculty-box" style="width: 18rem;">
+                    <img [src]="facultyMember.image" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">{{ facultyMember.name }}</h5>
+                      <p class="card-text">{{ facultyMember.description }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </mat-tab>
+  
+        <mat-tab label="Fee structure">
+  
+          <div class="content">
+            <table class="fee-structure-table">
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Description</th>
+                  <th>Amount (USD)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let fee of item.feeStructure">
+                  <td>{{ fee.category }}</td>
+                  <td>{{ fee.description }}</td>
+                  <td>{{ fee.amount }}</td>
+                </tr>
+                <tr>
+                  <td><strong>Total</strong></td>
+                  <td></td>
+                  <td><strong>{{ calculateTotalFee(item.feeStructure) }}</strong></td>
+  
+                  
+                </tr>
+              </tbody>
+            </table>
+          </div>
+  
+        </mat-tab>
+  
+        <mat-tab label="Reviews">
+  
+          <div class="content">
+            <div class="review-box">
+              <h2>Customer Reviews</h2>
+              <div class="review" *ngFor="let review of item.reviews">
+                <div class="review-header">
+                  <span class="reviewer-name">{{ review.name }}</span>
+                  <span class="review-date">{{ review.date }}</span>
+                </div>
+                <div class="review-rating">
+                  <span class="star" *ngFor="let i of [1, 2, 3, 4, 5]">
+                    <i class="fa" [ngClass]="{'fa-star': i <= review.rating, 'fa-star-o': i > review.rating}"></i>
+                  </span>
+                </div>
+                <div class="review-content">
+                  {{ review.content }}
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </mat-tab>
+  
+      </mat-tab-group>
+    </div>
+  </div>

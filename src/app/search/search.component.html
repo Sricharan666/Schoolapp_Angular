@@ -1,0 +1,97 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <div class="row first-row">
+        <div class="col-2 logo-div">
+          <a class="navbar-brand" href="#">
+            <!-- Your logo image or text goes here -->
+            <img src="https://cryptologos.cc/logos/aave-aave-logo.png" alt="Logo" class="logo">
+          </a>
+        </div>
+        <div class="col-10">
+          <form class="form-inline my-2 my-lg-0 ml-auto" role="search" [formGroup]="searchForm">
+            <div class="row">
+              <div class="col-1">
+              </div>
+              <div class="col-8">
+                <div class="input-group">
+                  <input class="form-control mr-2 search-input-large" type="search" placeholder="Search" aria-label="Search" formControlName="selectedSchool">
+                  <datalist id="datalistOptions">
+                    <option value="Nizamabad"></option>
+                    <option value="hyderabad"></option>
+                    <option value="warangal"></option>
+                    <option value="karimnagar"></option>
+                    <!-- <option value="Chicago"></option> -->
+                  </datalist>
+                  <input class="form-control" list="datalistOptions" placeholder="Search by location" formControlName="selectedOption">
+                  <div class="input-group-append">
+                    <!-- <button class="btn btn-outline-success" type="button" (click)="search()"></button> -->
+                    <i class="fa-solid fa-magnifying-glass" (click)="search()"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-5">
+              </div>
+            </div>
+          </form>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type of="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.dpsjorhat.in/adminLogin/carouselUpload/140723_64b10f0049b68.jpg" class="d-block w-100 imgs" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.dps.ac.in/img/asb.JPG" class="d-block w-100 imgs" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="https://edunext-main-storage-cf.edunexttechnologies.com/dpsdehradun/school___static/1690881981141_slider01.jpg" class="d-block w-100 imgs" alt="">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+    <div class="response" *ngIf="filteredSchools.length > 0">
+      <ul class="card-container">
+        <li *ngFor="let school of filteredSchools" class="card">
+          <div class="card-content" (click)="navigateToSchool(school)">
+            <div class="school-image">
+              <img [src]="school.imageurls.imageurl1" alt="School Image">
+            </div>
+            <div class="card-sub-content">
+              <h2 class="school-name">{{school.schoolname}}</h2>
+              <hr class="section-divider">
+              <div class="section description">
+                <p>{{ school.description }}</p>
+              </div>
+              <hr class="section-divider">
+              <div class="section contact-faculty">
+                <p><strong>Contact:</strong> {{ school.contact }}</p>
+                <p><strong>Location:</strong> {{ school.location }}</p>
+              </div>
+              <hr class="section-divider">
+              <div class="section location">
+                <!-- <p><strong><a routerLink="{{school.route}}">More Info:</a></strong></p> -->
+                <p><strong><a  class="link">More Info</a></strong></p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <router-outlet></router-outlet>

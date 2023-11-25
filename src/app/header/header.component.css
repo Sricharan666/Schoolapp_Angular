@@ -1,0 +1,26 @@
+.nav-container {
+    display: flex;
+    width: 100%;
+    background-color: rgb(53, 194, 77);
+  }
+  
+  .nav-option {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid #ccc;
+    background: none;
+    border: none;
+  }
+  
+  .nav-option:last-child {
+    border-right: none; /* Remove the border on the last link */
+  }
+  
+  .nav-option:hover {
+    color: #fcfcfc;  
+    background-color: rgb(90, 251, 117);
+
+  }

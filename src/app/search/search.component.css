@@ -1,0 +1,95 @@
+.first-row{
+    width: 100%;
+}
+.logo{
+    width: 45px;
+    text-align: center;
+}
+.logo-div{
+    text-align: center;
+}
+.input-group .form-control {
+    margin-right: 10px; 
+  }
+  .search-input-large {
+    width: 300px; /* Adjust the width as desired */
+  }
+  .logo-space {
+    width: 20px; /* Adjust the width to control the spacing */
+  }
+.navbar{
+ height: 80px;
+ background-color: rgba(0, 0, 0, 0.12);
+}
+
+.response{
+    border: 1px solid #e0e0e0;
+    background-color: #9c9c9c;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+/* card-style.css */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Maximum of 4 items per row */
+  grid-auto-rows: minmax(auto, 1fr); /* Define row height, auto to fit content */
+  gap: 20px; /* Increase the gap between items */
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.2s;
+  padding: 0; /* No padding to remove the space around the card */
+}
+
+/* .card:hover {
+  transform: scale(1.05);
+} */
+
+.card-sub-content {
+  padding: 20px; /* Apply padding for spacing between sections */
+}
+.school-image {
+  width: 100%; /* Set the width to 100% to fill the container */
+  height: 200px; /* Fixed height for every image, adjust as needed */
+  overflow: hidden; /* Ensure that images don't overflow their container */
+  padding: 2px;
+}
+
+.school-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.school-name {
+  font-weight: bold;
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  margin: 10px 0;
+}
+
+.section-divider {
+  border: 1px solid #ccc;
+  margin: 20px 0; /* Margin above and below the horizontal line */
+}
+
+.section p {
+  margin: 10px 0; /* Adjust the margin for sections as needed */
+  font-size: 1rem; /* Adjust the font size for sections as needed */
+}
+.imgs{
+  width: 100%;
+  height: 300px; /* You can adjust this value to set the desired height for the images. */
+  /* object-fit: cover; */
+}
+.link{
+  color: blue;
+  cursor: pointer;
+}

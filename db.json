@@ -1,0 +1,457 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "schoolname": "Delhi Public School",
+      "description": "Good environment",
+      "contact": "9876545678",
+      "location": "hyderabad",
+      "route" : "Delhi",
+      "address" : "ADDRESS : Delhi-public-school-tarnaka-hyderabad-boarding-schools-27qth1zfoe",
+      "reviews" : [
+        {
+          "name": "John Doe",
+          "date": "2023-10-13",
+          "content": "Great product, I love it!",
+          "rating": 5
+        },
+        {
+          "name": "Jane Smith",
+          "date": "2023-10-14",
+          "content": "The quality is amazing. Highly recommended!",
+          "rating": 4
+        }
+      ],
+      "feeStructure" : [
+        { 
+          "category": "Tuition Fee",
+          "description": "Monthly tuition fee",
+          "amount": 5000 
+        },
+        { 
+          "category": "Library Fee",
+          "description": "Annual library membership",
+          "amount": 250 
+        },
+        { 
+          "category": "Extracurricular Fee",
+          "description": "Per semester fee for clubs and activities",
+          "amount": 200 
+        }
+      ],
+      "facultyMembers" : [
+        {
+          "name": "Director",
+          "image": "https://www.apeejay.edu/asm/wp-content/uploads/2022/11/director-profiel.jpg",
+          "description": "Education is a lifelong process which is to be nurtured with love and care. It must be built on a firm and broad foundation for students to excel in life."
+        },
+        {
+          "name": "Chairman",
+          "image": "https://media.licdn.com/dms/image/C4E03AQHBmxuItgF5Xw/profile-displayphoto-shrink_800_800/0/1517272913274?e=2147483647&v=beta&t=5WYXAZkSiVcMjXO6y8--UQCT-GiMJ1yaYEQAhLtKd9s",
+          "description": "A child's mind is like a fertile soil - rich, vibrant with life and eager to absorb every experience that comes within his or her universe."
+        },
+        {
+          "name": "Principal",
+          "image": "https://somervillevasundhara.in/wp-content/uploads/2017/09/principal-ad-n.jpg",
+          "description": "DPS Hyderabad aim to preserve and enhance highest standard of excellence to match up at every stage."
+        },
+        {
+          "name": "Vice Principal",
+          "image": "https://abs.edu.in/wp-content/uploads/2020/06/SS-5-6-2020.jpg",
+          "description": "Education is a lifelong process which is to be nurtured with love and care. It must be built on a firmand broad foundation for students to excel in life."
+        }
+      ],
+      "schoolInfo" : {
+        "info1": "Delhi Public School (also known as DPS) is the largest public school institution in India. The classes are from Nursery to Class XII (Science, Arts, and Commerce). Once affiliated to CBSE, the school chain is currently running independently and not under any board as of December 2022.",
+        "info2": "The DPS Society is a non-profit, non-proprietary, private, educational organization. This Global Network of over 200 English medium, co-educational, secular schools provides education from Pre-Nursery/Nursery to Class XII.",
+        "info3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora qui earum eligendi porro sed eum, nihil ipsum quam unde, illo dolorem dicta totam ab quod omnis saepe, quidem aut veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quia tenetur. Esse consequuntur amet cum sequi officiis corporis nihil minima, sit quam totam, necessitatibus illo doloribus provident natus eligendi ab."
+      },
+      "imageurls":{
+        "imageurl1" : "https://www.dpskaithal.org.in/wp-content/uploads/2022/03/view3.jpg",
+        "imageurl2" : "https://www.yayskool.com/images/school/delhi-public-school-kaithal-32293915.jpg",
+        "imageurl3" : "https://content.jdmagicbox.com/comp/hyderabad/g4/040pxx40.xx40.140225111830.l8g4/catalogue/delhi-public-school-nacharam-hyderabad-boarding-schools-27qth1zfoe.jpg"
+      }
+    },
+
+    {
+      "id": 2,
+      "schoolname": "Sharadha High School",
+      "description": "With Good faculty",
+      "contact": "7876543345",
+      "location": "hyderabad",
+      "route" : "sharadha",
+      "address" : "ADDRESS : Shardha-public-school-tarnaka-hyderabad-boarding-schools-27qth1zfoe",
+      "reviews" : [
+        {
+          "name": "James",
+          "date": "2023-6-14",
+          "content": "Great product, I love it!",
+          "rating": 5,
+          "userPhoto": "path-to-johns-photo.jpg"
+        },
+        {
+          "name": "devid",
+          "date": "2023-8-11",
+          "content": "The quality is amazing. Highly recommended!",
+          "rating": 4,
+          "userPhoto": "path-to-janes-photo.jpg"
+        }
+      ],
+      "feeStructure" : [
+        { 
+          "category": "Tuition Fee",
+          "description": "Monthly tuition fee",
+          "amount": 5000 
+        },
+        { 
+          "category": "Library Fee",
+          "description": "Annual library membership",
+          "amount": 250 
+        },
+        { 
+          "category": "Extracurricular Fee",
+          "description": "Per semester fee for clubs and activities",
+          "amount": 200 
+        }
+      ],
+      "facultyMembers" : [
+        {
+          "name": "Director",
+          "image": "https://cdn.workmob.com/stories_workmob/images/stories/thumb/george-thomas-education-academia-udaipur-thumb.jpg",
+          "description": "Education is a lifelong process which is to be nurtured with love and care. It must be built on a firm and broad foundation for students to excel in life."
+        },
+        {
+          "name": "Chairman",
+          "image": "https://cloud9.shauryasoft.com/media/contentpage_232_31_1.jpg?636911881125665062?2ybpY",
+          "description": "A child's mind is like a fertile soil - rich, vibrant with life and eager to absorb every experience that comes within his or her universe."
+        },
+        {
+          "name": "Principal",
+          "image": "https://www.mayoorschool.org/images/Albums/221/APM.jpg",
+          "description": "DPS Hyderabad aim to preserve and enhance highest standard of excellence to match up at every stage."
+        },
+        {
+          "name": "Vice Principal",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvIbuEBZgye9cn_hugaZy4khUewg4S5k-gAw&usqp=CAU",
+          "description": "Education is a lifelong process which is to be nurtured with love and care. It must be built on a firmand broad foundation for students to excel in life."
+        }
+      ],
+      "schoolInfo" : {
+        "info1": "Delhi Public School (also known as DPS) is the largest public school institution in India. The classes are from Nursery to Class XII (Science, Arts, and Commerce). Once affiliated to CBSE, the school chain is currently running independently and not under any board as of December 2022.",
+        "info2": "The DPS Society is a non-profit, non-proprietary, private, educational organization. This Global Network of over 200 English medium, co-educational, secular schools provides education from Pre-Nursery/Nursery to Class XII.",
+        "info3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora qui earum eligendi porro sed eum, nihil ipsum quam unde, illo dolorem dicta totam ab quod omnis saepe, quidem aut veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quia tenetur. Esse consequuntur amet cum sequi officiis corporis nihil minima, sit quam totam, necessitatibus illo doloribus provident natus eligendi ab."
+      },
+      "imageurls":{
+        "imageurl1" : "https://sharadamandir.edu.in/wp-content/uploads/2023/02/SMS-Home-Page-1.jpg",
+        "imageurl2" : "https://static9.depositphotos.com/1111330/1145/i/450/depositphotos_11452322-stock-photo-school-building.jpg",
+        "imageurl3" : "https://static9.depositphotos.com/1111330/1145/i/450/depositphotos_11452322-stock-photo-school-building.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "schoolname": "Delhi model School",
+      "description": "20 years experienced faculty",
+      "contact": "8567667877",
+      "location": "warangal",
+      "route" : "dms",
+      "address" : "ADDRESS : Delhi-Model-school-nearKU-Warangal-boarding-schools",
+      "reviews" : [
+        {
+          "name": "virat",
+          "date": "2023-3-13",
+          "content": "Great product, I love it!",
+          "rating": 5,
+          "userPhoto": "path-to-johns-photo.jpg"
+        },
+        {
+          "name": "Tom Smith",
+          "date": "2023-10-14",
+          "content": "The quality is amazing. Highly recommended!",
+          "rating": 4,
+          "userPhoto": "path-to-janes-photo.jpg"
+        }
+      ],
+      "feeStructure" : [
+        { 
+          "category": "Tuition Fee",
+          "description": "Monthly tuition fee",
+          "amount": 5000 
+        },
+        { 
+          "category": "Library Fee",
+          "description": "Annual library membership",
+          "amount": 250 
+        },
+        { 
+          "category": "Extracurricular Fee",
+          "description": "Per semester fee for clubs and activities",
+          "amount": 200 
+        }
+      ],
+      "facultyMembers" : [
+        {
+          "name": "Director",
+          "image": "https://www.welhamboys.org/images/welham-boys-principal.jpg",
+          "description": "Education is a lifelong process which is to be nurtured with love and care. It must be built on a firm and broad foundation for students to excel in life."
+        },
+        {
+          "name": "Chairman",
+          "image": "https://www.atmiyagreenschool.com/images/ad-staff2.jpg",
+          "description": "A child's mind is like a fertile soil - rich, vibrant with life and eager to absorb every experience that comes within his or her universe."
+        },
+        {
+          "name": "Principal",
+          "image": "https://www.bethanyconventschool.org/Images/principal_updtaee.jpg",
+          "description": "DPS Hyderabad aim to preserve and enhance highest standard of excellence to match up at every stage."
+        },
+        {
+          "name": "Vice Principal",
+          "image": "https://www.atmiyagreenschool.com/images/ad-staff1.jpg",
+          "description": "Education is a lifelong process which is to be nurtured with love and care. It must be built on a firmand broad foundation for students to excel in life."
+        }
+      ],
+      "schoolInfo" : {
+        "info1": "Delhi Public School (also known as DPS) is the largest public school institution in India. The classes are from Nursery to Class XII (Science, Arts, and Commerce). Once affiliated to CBSE, the school chain is currently running independently and not under any board as of December 2022.",
+        "info2": "The DPS Society is a non-profit, non-proprietary, private, educational organization. This Global Network of over 200 English medium, co-educational, secular schools provides education from Pre-Nursery/Nursery to Class XII.",
+        "info3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora qui earum eligendi porro sed eum, nihil ipsum quam unde, illo dolorem dicta totam ab quod omnis saepe, quidem aut veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quia tenetur. Esse consequuntur amet cum sequi officiis corporis nihil minima, sit quam totam, necessitatibus illo doloribus provident natus eligendi ab."
+      },
+      "imageurls":{
+        "imageurl1" : "https://socialsocial.social/btabcloud/uploads/2023/06/wimghtyjpeg-1686671872c8p4l.jpg",
+        "imageurl2" : "https://modernschool.net/wp-content/uploads/2019/10/A02I2973-e1581074519558.jpg",
+        "imageurl3" : "https://scoonews.com/uploads/asset_files/80th-ipsc-215785621141578562114.JPG"
+      }
+    },
+    {
+      "id": 4,
+      "schoolname": "Vidya Vani High School",
+      "description": "Lorem ipsum dolor sit amet",
+      "contact": "8567667877",
+      "location": "karimnagar",
+      "route" : "dms",
+      "address" : "ADDRESS : Vidya-Vani-High-School-near-karminagar-boarding-schools",
+      "reviews" : [
+        {
+          "name": "niraj",
+          "date": "2023-10-13",
+          "content": "Great product, I love it!",
+          "rating": 5,
+          "userPhoto": "path-to-johns-photo.jpg"
+        },
+        {
+          "name": "Bhosle",
+          "date": "2023-10-14",
+          "content": "The quality is amazing. Highly recommended!",
+          "rating": 4,
+          "userPhoto": "path-to-janes-photo.jpg"
+        }
+      ],
+      "feeStructure" : [
+        { 
+          "category": "Tuition Fee",
+          "description": "Monthly tuition fee",
+          "amount": 5000 
+        },
+        { 
+          "category": "Library Fee",
+          "description": "Annual library membership",
+          "amount": 250 
+        },
+        { 
+          "category": "Extracurricular Fee",
+          "description": "Per semester fee for clubs and activities",
+          "amount": 200 
+        }
+      ],
+      "facultyMembers" : [
+        {
+          "name": "Director",
+          "image": "https://cmseducation.org/campuses/rajendranagar1/images/principal2.png",
+          "description": "Education is a lifelong process which is to be nurtured with love and care. It must be built on a firm and broad foundation for students to excel in life."
+        },
+        {
+          "name": "Chairman",
+          "image": "https://cmseducationorg.files.wordpress.com/2019/05/cms_-_principal.jpg",
+          "description": "A child's mind is like a fertile soil - rich, vibrant with life and eager to absorb every experience that comes within his or her universe."
+        },
+        {
+          "name": "Principal",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaRLfxEZU2Y1Tvxsu4VHu6GYF8XNLhvkwN6RiBqpYaYX-4UIN-K7hkbQPDpq9EytR5XHA&usqp=CAU",
+          "description": "DPS Hyderabad aim to preserve and enhance highest standard of excellence to match up at every stage."
+        },
+        {
+          "name": "Vice Principal",
+          "image": "https://www.mayoorschool.org/images/Albums/221/DKS.jpg",
+          "description": "Education is a lifelong process which is to be nurtured with love and care. It must be built on a firmand broad foundation for students to excel in life."
+        }
+      ],
+      "schoolInfo" : {
+        "info1": "Delhi Public School (also known as DPS) is the largest public school institution in India. The classes are from Nursery to Class XII (Science, Arts, and Commerce). Once affiliated to CBSE, the school chain is currently running independently and not under any board as of December 2022.",
+        "info2": "The DPS Society is a non-profit, non-proprietary, private, educational organization. This Global Network of over 200 English medium, co-educational, secular schools provides education from Pre-Nursery/Nursery to Class XII.",
+        "info3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora qui earum eligendi porro sed eum, nihil ipsum quam unde, illo dolorem dicta totam ab quod omnis saepe, quidem aut veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quia tenetur. Esse consequuntur amet cum sequi officiis corporis nihil minima, sit quam totam, necessitatibus illo doloribus provident natus eligendi ab."
+      },
+      "imageurls":{
+        "imageurl1" : "https://content.jdmagicbox.com/comp/hyderabad/a7/040p1237900961h5a2a7/catalogue/vidyavani-high-school-chanda-nagar-hyderabad-schools-e1oug.jpg?clr=",
+        "imageurl2" : "https://images.uniapply.com/uploads/college/image/500/3613/Vidyaniketan_Public_School_4447_Building_UA_2.jpg",
+        "imageurl3" : "https://yellowslate.sgp1.cdn.digitaloceanspaces.com/gallery/1685875985826732908647c6d11795991685875985.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "schoolname": "Narayana High School",
+      "description": "consectetur adipisicing elit",
+      "contact": "9876556764",
+      "location": "hyderabad",
+      "route" : "narayana",
+      "address" : "ADDRESS : Narayana-High-School-amberpet-hyderabad-boarding-schools",
+      "reviews" : [
+        {
+          "name": "meera",
+          "date": "2023-10-13",
+          "content": "Great product, I love it!",
+          "rating": 5,
+          "userPhoto": "path-to-johns-photo.jpg"
+        },
+        {
+          "name": "Teena",
+          "date": "2023-10-14",
+          "content": "The quality is amazing. Highly recommended!",
+          "rating": 4,
+          "userPhoto": "path-to-janes-photo.jpg"
+        }
+      ],
+      "feeStructure" : [
+        { 
+          "category": "Tuition Fee",
+          "description": "Monthly tuition fee",
+          "amount": 5000 
+        },
+        { 
+          "category": "Library Fee",
+          "description": "Annual library membership",
+          "amount": 250 
+        },
+        { 
+          "category": "Extracurricular Fee",
+          "description": "Per semester fee for clubs and activities",
+          "amount": 200 
+        }
+      ],
+      "facultyMembers" : [
+        {
+          "name": "Director",
+          "image": "https://media.licdn.com/dms/image/C5603AQE9JFgBYB75UQ/profile-displayphoto-shrink_800_800/0/1516973027474?e=2147483647&v=beta&t=U-ZcnApfEhNNnslcHZq5w3Ja-vAOrCbObSv_kJS51io",
+          "description": "Education is a lifelong process which is to be nurtured with love and care. It must be built on a firm and broad foundation for students to excel in life."
+        },
+        {
+          "name": "Chairman",
+          "image": "https://www.mayoorschool.org/images/Albums/221/HNK.jpg",
+          "description": "A child's mind is like a fertile soil - rich, vibrant with life and eager to absorb every experience that comes within his or her universe."
+        },
+        {
+          "name": "Principal",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUzZYgdb1MQVrX7ggXaxBVN_PZB_K8LpmmLz4LBhShdl6xKmwUVwYLRJrfKUffsK6RrGY&usqp=CAU",
+          "description": "DPS Hyderabad aim to preserve and enhance highest standard of excellence to match up at every stage."
+        },
+        {
+          "name": "Vice Principal",
+          "image": "https://www.mayoorschool.org/images/Albums/221/MRA.jpg",
+          "description": "Education is a lifelong process which is to be nurtured with love and care. It must be built on a firmand broad foundation for students to excel in life."
+        }
+      ],
+      "schoolInfo" : {
+        "info1": "Delhi Public School (also known as DPS) is the largest public school institution in India. The classes are from Nursery to Class XII (Science, Arts, and Commerce). Once affiliated to CBSE, the school chain is currently running independently and not under any board as of December 2022.",
+        "info2": "The DPS Society is a non-profit, non-proprietary, private, educational organization. This Global Network of over 200 English medium, co-educational, secular schools provides education from Pre-Nursery/Nursery to Class XII.",
+        "info3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora qui earum eligendi porro sed eum, nihil ipsum quam unde, illo dolorem dicta totam ab quod omnis saepe, quidem aut veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quia tenetur. Esse consequuntur amet cum sequi officiis corporis nihil minima, sit quam totam, necessitatibus illo doloribus provident natus eligendi ab."
+      },
+      "imageurls":{
+        "imageurl1" : "https://preprimaryschools.com/assets/uploads/school/home/31122021012038_908140_Narayana-School-Asansol-(12).jpg",
+        "imageurl2" : "https://cache.careers360.mobi/media/schools/social-media/media-gallery/8329/2022/11/16/Students_2_.png",
+        "imageurl3" : "https://content3.jdmagicbox.com/comp/asansol/x6/9999px341.x341.170605103226.m9x6/catalogue/narayana-schools-ramkrishna-mission-asansol-schools-gahwrf26z5.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "schoolname": "Bapuji High School",
+      "description": "consectetur adipisicing elit",
+      "contact": "8765657656",
+      "location": "Nizamabad",
+      "route" : "bapuji",
+      "address" : "ADDRESS : Bapuji-High-School-amberpet-hyderabad-boarding-schools",
+      "reviews" : [
+        {
+          "name": "Kamla",
+          "date": "2023-10-13",
+          "content": "Great product, I love it!",
+          "rating": 5,
+          "userPhoto": "path-to-johns-photo.jpg"
+        },
+        {
+          "name": "Nyra",
+          "date": "2023-10-14",
+          "content": "The quality is amazing. Highly recommended!",
+          "rating": 4,
+          "userPhoto": "path-to-janes-photo.jpg"
+        }
+      ],
+      "feeStructure" : [
+        { 
+          "category": "Tuition Fee",
+          "description": "Monthly tuition fee",
+          "amount": 5000 
+        },
+        { 
+          "category": "Library Fee",
+          "description": "Annual library membership",
+          "amount": 250 
+        },
+        { 
+          "category": "Extracurricular Fee",
+          "description": "Per semester fee for clubs and activities",
+          "amount": 200 
+        }
+      ],
+      "facultyMembers" : [
+        {
+          "name": "Director",
+          "image": "https://mayocollege.com/wp-content/uploads/2021/09/riktendu-das.jpeg",
+          "description": "Education is a lifelong process which is to be nurtured with love and care. It must be built on a firm and broad foundation for students to excel in life."
+        },
+        {
+          "name": "Chairman",
+          "image": "https://mayocollege.com/wp-content/uploads/2021/09/nitin-k-vashishtha.jpeg",
+          "description": "A child's mind is like a fertile soil - rich, vibrant with life and eager to absorb every experience that comes within his or her universe."
+        },
+        {
+          "name": "Principal",
+          "image": "https://www.mayoorschool.org/images/Albums/221/AYS.jpg",
+          "description": "DPS Hyderabad aim to preserve and enhance highest standard of excellence to match up at every stage."
+        },
+        {
+          "name": "Vice Principal",
+          "image": "https://www.mayoorschool.org/images/Albums/221/APT.jpg",
+          "description": "Education is a lifelong process which is to be nurtured with love and care. It must be built on a firmand broad foundation for students to excel in life."
+        }
+      ],
+      "schoolInfo" : {
+        "info1": "Delhi Public School (also known as DPS) is the largest public school institution in India. The classes are from Nursery to Class XII (Science, Arts, and Commerce). Once affiliated to CBSE, the school chain is currently running independently and not under any board as of December 2022.",
+        "info2": "The DPS Society is a non-profit, non-proprietary, private, educational organization. This Global Network of over 200 English medium, co-educational, secular schools provides education from Pre-Nursery/Nursery to Class XII.",
+        "info3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora qui earum eligendi porro sed eum, nihil ipsum quam unde, illo dolorem dicta totam ab quod omnis saepe, quidem aut veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quia tenetur. Esse consequuntur amet cum sequi officiis corporis nihil minima, sit quam totam, necessitatibus illo doloribus provident natus eligendi ab."
+      },
+      "imageurls":{
+        "imageurl1" : "https://preprimaryschools.com/assets/uploads/school/home/09032022033426_356360_Real-International-School-2.jpg",
+        "imageurl2" : "https://play-lh.googleusercontent.com/iYVJ9LpAZZBxnYXcduuZq1BIZsqleer69t9eCbAUsMwe4lBVr0cSh9uHpS-C5gJOF3Q",
+        "imageurl3" : "https://cache.careers360.mobi/media/schools/social-media/media-gallery/8941/2022/11/23/Environment%20Day.jpeg"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
